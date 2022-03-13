@@ -39,6 +39,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CA3431027DDF2DB00A06801 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6CED3B5627CA4FC000470C76 /* AppDelegate.swift */,
+				6CED3B5827CA4FC000470C76 /* SceneDelegate.swift */,
+				6CED3B6427CA4FC200470C76 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6CA3431127DDF2E200A06801 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6CED3B5A27CA4FC000470C76 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6CA3431227DDF2F400A06801 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6CED3B5C27CA4FC000470C76 /* Main.storyboard */,
+				6CED3B6127CA4FC200470C76 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6CA3431327DDF2FE00A06801 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CED3B5F27CA4FC200470C76 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		6CED3B4A27CA4FC000470C76 = {
 			isa = PBXGroup;
 			children = (
@@ -59,13 +94,10 @@
 		6CED3B5527CA4FC000470C76 /* TConverter */ = {
 			isa = PBXGroup;
 			children = (
-				6CED3B5627CA4FC000470C76 /* AppDelegate.swift */,
-				6CED3B5827CA4FC000470C76 /* SceneDelegate.swift */,
-				6CED3B5A27CA4FC000470C76 /* ViewController.swift */,
-				6CED3B5C27CA4FC000470C76 /* Main.storyboard */,
-				6CED3B5F27CA4FC200470C76 /* Assets.xcassets */,
-				6CED3B6127CA4FC200470C76 /* LaunchScreen.storyboard */,
-				6CED3B6427CA4FC200470C76 /* Info.plist */,
+				6CA3431127DDF2E200A06801 /* ViewControllers */,
+				6CA3431227DDF2F400A06801 /* Storyboards */,
+				6CA3431327DDF2FE00A06801 /* Resources */,
+				6CA3431027DDF2DB00A06801 /* App */,
 			);
 			path = TConverter;
 			sourceTree = "<group>";
@@ -295,23 +327,22 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MAMAND5R9P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TConverter/Info.plist;
+				INFOPLIST_FILE = TConverter/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TConverter;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexeyRadomskiy.TConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,23 +355,22 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MAMAND5R9P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TConverter/Info.plist;
+				INFOPLIST_FILE = TConverter/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TConverter;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexeyRadomskiy.TConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
